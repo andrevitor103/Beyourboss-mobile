@@ -5,6 +5,7 @@ import React from 'react';
 import { LogBox } from 'react-native';
 
 import Routes from './src/routes';
+import 'react-native-gesture-handler';
 
 LogBox.ignoreLogs(['Warning: ...']);
 LogBox.ignoreAllLogs();
